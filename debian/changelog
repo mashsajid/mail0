@@ -1,0 +1,113 @@
+sendemail (1.56-5) unstable; urgency=low
+
+  * Add local-sendmail.patch. Thanks to Olivier Mehani <shtrom@ssji.net>.
+
+ -- Alejandro Garrido Mota <alejandro@debian.org>  Sun, 01 Sep 2013 15:11:37 +0200
+
+sendemail (1.56-4) unstable; urgency=low
+
+  * Upload to unstable 
+
+ -- Alejandro Garrido Mota <alejandro@debian.org>  Fri, 23 May 2013 10:10:06 -0430
+
+sendemail (1.56-3) experimental; urgency=low
+
+  * Add patch to fix fails when tls is enabled (Closes: #679911).
+  * d/control: 
+     - Update Standards-Version field to 3.9.4.
+     - Add Vcs-Git and Vcs-Browser field.
+     - Replace debhelper version in B-D
+     - Improve 'Homepage' field. Thanks Feth Arezki (Closes: #703681).
+  * d/copyright:
+     - Update to copyright format 1.0.
+     - Update copyright dates.
+  * Update d/compat file to dh9.
+
+ -- Alejandro Garrido Mota <alejandro@debian.org>  Thu, 03 Mar 2013 11:00:23 -0430
+
+sendemail (1.56-2) unstable; urgency=low
+
+  * Remove DH_VERBOSE in d/rules
+  * Add IPV6 support (Closes: #591920)
+  * Update Standards-Version field  
+  * Fix d/watch file
+  * Update d/copyright to dep5
+  * Update debhelper version to '(>= 7.0.50~)' in Build-Depends field
+  * Fix spelling error (s/completly/completely) in d/control
+  * Add d/patches dir
+  * Include IPV6 patch support, thanks Roman Mamedov <roman@rm.pp.ru>.
+  * Add libio-socket-inet6-perl in Depends
+
+ -- Alejandro Garrido Mota <garridomota@gmail.com>  Sun, 12 Sep 2010 12:11:17 -0430
+
+sendemail (1.56-1) unstable; urgency=low
+
+  * New upstream release (Closes: #521894)
+  * Update Standards-Version to 3.8.3
+  * Add watch file 
+  * Implemented dh7
+  * Rename "docs" file to "sendemail.docs"
+  * Add ${misc:Depends} in Depends field
+  * Add sendemail.links, sendemail.manpages and sendemail.install
+  
+ -- Alejandro Garrido Mota <garridomota@gmail.com>  Sun, 3 Oct 2009 14:18:52 -0430
+
+sendemail (1.55-3) unstable; urgency=low
+
+  * Add symlink '/usr/bin/sendEmail' to '/usr/bin/sendemail' (Closes: #519083)
+
+ -- Alejandro Garrido Mota <garridomota@gmail.com>  Sun, 12 Apr 2009 18:21:43 -0430
+
+sendemail (1.55-2) unstable; urgency=low
+
+  * Add libio-socket-ssl-perl and libnet-ssleay-perl as Suggests.
+    Since sendEmail v1.54, TLS support is included but not used by default.
+    These perl modules are necessary to use this functionality if specified
+    with the -o tls=yes command line option. Closes: #487687
+  * Improve:
+       - debian/rules file
+       - copyright file
+       - man page
+       - Changelog file
+       - 'Description' field  (debian/control)
+  * Change Standards-Version to 3.8.0
+  * Support debhelper 7 compatibility
+  * Not include menu
+
+
+ -- Alejandro Garrido Mota <garridomota@gmail.com>  Sun, 14 Dec 2008 23:00:42 -0430
+
+sendemail (1.55-1) unstable; urgency=low
+   
+  * new upstream version
+  * A new mantainer (Closes: #391413)
+
+ -- Alejandro Garrido Mota <garridomota@gmail.com>  Tue, 19 Dec 2006 23:32:40 -0400
+
+sendemail (1.52-4) unstable; urgency=low
+
+  * QA upload.
+  * Set maintainer to QA Group; Orphaned: #391413
+  * Conforms with latest Standards Version 3.7.2
+
+ -- Michael Ablassmeier <abi@debian.org>  Thu, 19 Oct 2006 10:21:23 +0200
+
+sendemail (1.52-3) unstable; urgency=low
+
+  * Corrupt MIME message when attaching fixed.
+  	- Closes: #339988, thanks to Marco Paganini.
+
+ -- David Moreno Garza <damog@debian.org>  Mon, 28 Nov 2005 21:31:39 -0600
+
+sendemail (1.52-2) unstable; urgency=low
+
+  * Changed maintainer's address.
+
+ -- David Moreno Garza <damog@debian.org>  Sun, 28 Aug 2005 19:58:48 -0500
+
+sendemail (1.52-1) unstable; urgency=low
+
+  * Initial Release (Closes: #295288).
+
+ -- David Moreno Garza <damog@damog.net>  Mon, 28 Feb 2005 16:11:57 -0600
+
