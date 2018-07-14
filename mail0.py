@@ -10,7 +10,7 @@ try:
 
 
 		os.system("clear")
-		file = open("B4", "r") 	
+		file = open("mail0", "r") 	
 		sys.stdout.write(RED)
 		print file.read()			
 		
