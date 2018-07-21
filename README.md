@@ -34,3 +34,5 @@ In terminal type:
 
 
 3.chmod +x sendEmail
+
+Installation video --> https://youtu.be/doJWJD6qxG0
