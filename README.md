@@ -14,14 +14,14 @@ Only linux is supported for this scrypt.
 
 
 
-Tested on Mint,Kali,Parrot os,Ubuntu.
+Tested on Linux Mint, Kali Linux, Parrot os,Ubuntu.
 
 
 
 
 In terminal type:
 
-1.git cone https://github.com/mashsajid/mail0.git
+1.git clone https://github.com/mashsajid/mail0.git
 
 
 
